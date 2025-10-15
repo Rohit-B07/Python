@@ -7,13 +7,19 @@ C = a*b
 D = a//b
 E = a**2
 
-c = int(input("Select the operation 1, 2, 3, 4, 5: "))
+print("1-Add")
+print("2-Subtraction")
+print("3-Multiply")
+print("4-Divide")
+print("5-Power")
+
+c =int(input("Select the operation 1, 2, 3, 4, 5 : "))
 
 if c == 1:
     print(A)
 elif c == 2:
     print(B)
-elif c == 3 :
+elif c == 3:
     print(C)
 elif c == 4:
     print(D)
